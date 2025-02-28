@@ -3,8 +3,8 @@ body {
     padding: 0;
     font-family: "Alfa Slab One", serif;
     box-sizing: border-box;
-    background-color: #ffffff; /* Dark background */
-    color: #000000; /* White text color */
+    background-color: #ffffff;
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background: linear-gradient(135deg, #ffffffc9 0%, #333333 100%); /* Dark gradient */
+    background: linear-gradient(135deg, #ffffffc9 0%, #333333 100%);
     color: #ffffff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@ h4 {
     font-size: 1.5em;
     font-weight: normal;
     margin: 0 20px 0 5px;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
 }
 
 nav {
@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
 }
 
 .menu-button {
@@ -73,13 +73,12 @@ nav {
     cursor: pointer;
 }
 
-/* Hero Section */
 #hero {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('Image/hero22.png') no-repeat center center/cover;
-    color: #a2c8db; /* White text color */
+    color: #a2c8db;
     padding: 150px 20px;
     position: relative;
 }
@@ -101,18 +100,18 @@ nav {
 }
 
 .hero-text button {
-    background-color: #1a1a1a; /* Light blue */
-    color: #ffffff; /* Dark text color */
+    background-color: #1a1a1a;
+    color: #ffffff;
     border: none;
     padding: 15px 30px;
     font-size: 1.2em;
-    border-radius: 25px; /* Curved corners */
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .hero-text button:hover {
-    background-color: #8faab5; /* Darker blue on hover */
+    background-color: #8faab5;
     transform: translateY(-5px);
 }
 
@@ -126,7 +125,7 @@ section {
 
 section h2 {
     font-size: 2.5em;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -141,35 +140,34 @@ section p, section ul {
 
 blockquote {
     font-style: italic;
-    color: #1a1a1a; /* Light blue color */
-    border-left: 5px solid #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
+    border-left: 5px solid #1a1a1a;
     padding-left: 10px;
     margin: 20px 0;
     max-width: 800px;
     margin: 20px auto;
 }
 
-/* About Section */
 #about {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); /* Removed background image */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     padding: 5px 5px;
-    color: #000000; /* White text color */
+    color: #000000;
 }
 
 #about h2 {
     font-size: 2.5em;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
     margin-bottom: 20px;
     margin-top: 5px;
-    text-align: center; /* Center the title */
+    text-align: center;
 }
 
 #about p {
     font-size: 1.5em;
     line-height: 1.6;
-    text-align: center; /* Center the text */
+    text-align: center;
     margin: 20px 0 0 0;
-    color: #000000; /* White text color */
+    color: #000000;
     font-weight: normal;
 }
 
@@ -179,7 +177,7 @@ blockquote {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-    background-color: rgba(68, 68, 68, 0); /* Darker gray background with transparency */
+    background-color: rgba(68, 68, 68, 0);
 }
 
 .about-content {
@@ -191,11 +189,11 @@ blockquote {
 
 .about-block {
     display: flex;
-    flex-direction: row; /* Align items side by side */
+    flex-direction: row;
     flex: 1 1 100%;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0); /* Dark gray background with transparency */
+    background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -206,30 +204,29 @@ blockquote {
 }
 
 .about-block img {
-    width: 30%; /* Adjust width as needed */
+    width: 30%;
     height: auto;
     border-radius: 10px;
-    margin-right: 20px; /* Add space between image and text */
+    margin-right: 20px;
 }
 
 .about-block .about-text {
     flex: 1;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .about-block p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #ffffff; /* White text color */
-    text-align: left; /* Align text to the left */
+    color: #ffffff;
+    text-align: left;
 }
 
-/* Mission Section */
 #mission {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('Image/background.png') no-repeat center center/cover;
     padding: 60px 20px;
     text-align: center;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 .mission-container {
@@ -240,7 +237,7 @@ blockquote {
 .mission-intro {
     font-size: 1.5em;
     margin-bottom: 40px;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
     text-align: center;
     font-weight: normal;
 }
@@ -250,15 +247,15 @@ blockquote {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
-    flex-direction: row; /* Ensure horizontal layout */
+    flex-direction: row;
 }
 
 .mission-block {
-    background-color: rgba(68, 68, 68, 0.8); /* Darker gray with transparency */
+    background-color: rgba(68, 68, 68, 0.8);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 40px; /* Adjust width to fit three blocks per row */
+    flex: 40px;
     max-width: calc(33.333% - 40px);
     display: flex;
     align-items: center;
@@ -279,7 +276,7 @@ blockquote {
 .mission-block h3 {
     font-size: 2em;
     font-weight: normal;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -288,15 +285,15 @@ blockquote {
 
 .mission-block h3 i {
     font-size: 1.5em;
-    background-color: #1a1a1a; /* Light blue background */
-    color: #ffffff; /* Dark text color */
+    background-color: #1a1a1a;
+    color: #ffffff;
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .mission-block h3 i:hover {
-    background-color: #8faab5; /* Darker blue on hover */
+    background-color: #8faab5;
     transform: scale(1.1);
 }
 
@@ -304,20 +301,19 @@ blockquote {
     font-size: 1.2em;
     font-weight: normal;
     line-height: 1.6;
-    color: #ffffff; /* White text */
+    color: #ffffff;
 }
 
-/* Gallery Section */
 #gallery {
-    background-color: #1a1a1a; /* Dark background */
+    background-color: #1a1a1a;
     padding: 60px 20px;
     text-align: center;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 #gallery h2 {
     font-size: 2.5em;
-    color: #ffffff; /* Light blue color */
+    color: #ffffff;
     margin-bottom: 40px;
 }
 
@@ -335,7 +331,7 @@ blockquote {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 5px solid #1a1a1a; /* Light blue frame */
+    border: 5px solid #1a1a1a;
 }
 
 .gallery-item img {
@@ -355,17 +351,16 @@ blockquote {
     filter: brightness(0.8);
 }
 
-/* Events Section */
 #events {
-    background-color: #00000000; /* Dark background */
+    background-color: #00000000;
     padding: 10px;
     text-align: center;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 #events h2 {
     font-size: 2.5em;
-    color: #000000; /* White color for the title */
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -373,7 +368,7 @@ blockquote {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 40px;
-    color: #020202; /* White text color */
+    color: #020202;
     font-weight: normal;
     text-align: center;
 }
@@ -387,7 +382,7 @@ blockquote {
 }
 
 .event-card {
-    background-color: #333333; /* Dark gray background */
+    background-color: #333333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -411,7 +406,7 @@ blockquote {
 }
 
 .event-icon {
-    background-color: #1a1a1a; /* Dark background */
+    background-color: #1a1a1a;
     padding: 15px;
     border-radius: 50%;
     display: flex;
@@ -422,11 +417,11 @@ blockquote {
 
 .event-icon i {
     font-size: 1em;
-    color: #b6ccd7; /* Light blue color */
+    color: #b6ccd7;
 }
 
 .event-card:hover .event-icon {
-    background-color: #b6ccd7; /* Light blue background on hover */
+    background-color: #b6ccd7;
 }
 
 .event-details {
@@ -437,7 +432,7 @@ blockquote {
 
 .event-details h3 {
     font-size: 1.5em;
-    color: #b6ccd7; /* White color */
+    color: #b6ccd7;
     margin-bottom: 10px;
     font-weight: normal;
 }
@@ -454,28 +449,25 @@ blockquote {
     margin-bottom: 10px;
 }
 
-/* Hide scrollbar for Webkit browsers */
 .events-container::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for other browsers */
 .events-container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-/* Resources Section */
 #resources {
-    background-color: #1a1a1a; /* Dark background */
+    background-color: #1a1a1a;
     padding: 10px 10px;
     text-align: center;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 #resources h2 {
     font-size: 2.5em;
-    color: #ffffff; /* Light blue color */
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -483,7 +475,7 @@ blockquote {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 40px;
-    color: #fcfcfc; /* Light blue text color */
+    color: #fcfcfc;
 }
 
 .resources-container {
@@ -494,7 +486,7 @@ blockquote {
 }
 
 .resource-card {
-    background-color: #666262; /* Dark gray background */
+    background-color: #666262;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -511,37 +503,36 @@ blockquote {
 
 .resource-card i {
     font-size: 2em;
-    color: #1a1a1a; 
+    color: #1a1a1a;
     margin-bottom: 10px;
 }
 
 .resource-card h3 {
     font-size: 1.5em;
     font-weight: normal;
-    color: #8faab5; /* Light blue color */
+    color: #8faab5;
     margin-bottom: 10px;
 }
 
 .resource-card p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 .resource-card a {
     display: inline-block;
     margin-top: 10px;
-    color: #1a1a1a; /* Light blue color */
+    color: #1a1a1a;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .resource-card a:hover {
-    color: #8faab5; /* Darker blue on hover */
+    color: #8faab5;
 }
 
-/* Newsletter Section */
 #newsletter form {
     display: flex;
     justify-content: center;
@@ -558,8 +549,8 @@ blockquote {
 }
 
 #newsletter button {
-    background-color: #1a1a1a; /* Light blue color */
-    color: #ffffff; /* Dark text color */
+    background-color: #1a1a1a;
+    color: #ffffff;
     border: none;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -568,12 +559,11 @@ blockquote {
 }
 
 #newsletter button:hover {
-    background-color: #8faab5; /* Darker blue on hover */
+    background-color: #8faab5;
 }
 
-/* Footer Section */
 footer {
-    background-color: #333333; /* Dark gray background */
+    background-color: #333333;
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -595,7 +585,7 @@ footer {
 
 .social-media i {
     font-size: 2em;
-    color: #ffffff; /* Light blue color */
+    color: #ffffff;
 }
 
 @keyframes fadeIn {
